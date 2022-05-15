@@ -2,32 +2,26 @@ import css from "styled-jsx/css";
 export default css.global`
   @font-face {
     font-family: "Raleway-Medium";
-    src: url("/fonts/Raleway-Medium.ttf");
+    src: url("/fonts/Raleway-Medium.woff2");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
     font-family: "Raleway-SemiBold";
-    src: url("/fonts/Raleway-SemiBold.ttf");
+    src: url("/fonts/Raleway-SemiBold.woff2");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
     font-family: "Cera Pro Light";
-    src: url("/fonts/Cera Pro Light.otf");
+    src: url("/fonts/Cera Pro Light.woff2");
     font-style: normal;
     font-weight: normal;
     font-display: swap;
   }
-  @font-face {
-    font-family: "Cera Pro Light Italic";
-    src: url("/fonts/Cera Pro Light Italic.otf");
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-  }
+
   html.has-scroll-smooth {
     overflow: hidden;
   }
