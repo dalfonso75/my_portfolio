@@ -3,9 +3,9 @@ export default css`
   :global(.c-about-me) {
     display: grid;
     gap: 6vw;
-    grid-template-columns: 0.8fr 1fr;
+    grid-template-columns: 0.6fr 1fr;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
   }
   .about-me__wrapper-media {
     position: relative;
