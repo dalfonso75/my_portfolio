@@ -1,6 +1,6 @@
 import Head from "next/head";
 import AppLayout from "../components/AppLayout";
-
+import AboutMe from "../components/AboutMe";
 export default function Home() {
   return (
     <AppLayout>
@@ -12,7 +12,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <h1>Deiver Alfonso</h1>
+        <AboutMe />
       </main>
     </AppLayout>
   );

@@ -93,34 +93,51 @@ export default css.global`
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .btn--clean {
+  .title {
     margin: 0;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-  }
-  p {
     color: #ffffff;
-    font-family: "Cera Pro Light";
-    font-weight: 400;
-    text-transform: none;
+    font-family: "Raleway-SemiBold";
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1em;
   }
   .subtitle {
     color: #ffffff;
     font-family: "Raleway-SemiBold";
     text-transform: uppercase;
     font-size: 9vw;
-    width: 50vw;
     margin: 0;
+  }
+  p {
+    color: #ffffff;
+    font-family: "Cera Pro Light";
+    font-weight: 400;
+    line-height: 1.2em;
+    text-transform: none;
   }
   .paragraph {
     font-size: 5vw;
   }
-  .a_clean {
+  .btn--clean {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .btn-primary{
+    width: fit-content;
+    padding: 0.8vw 3vw;
+    background-color: #c4c4c426;
+    color: #FFFFFF;
+    font-family: "Raleway-SemiBold";
+    font-size: 1vw;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing:1px;
   }
   @media (min-width: 400px) {
   }
