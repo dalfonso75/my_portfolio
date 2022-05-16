@@ -5,7 +5,7 @@ export default css`
     gap: 6vw;
     grid-template-columns: 0.6fr 1fr;
     align-items: center;
-    height: 90vh;
+    height: calc(90vh - 80px);
   }
   .about-me__wrapper-media {
     position: relative;

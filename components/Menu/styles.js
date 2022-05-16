@@ -2,13 +2,14 @@ import css from "styled-jsx/css";
 export default css`
   :global(.menu) {
     position: fixed;
-    padding: 1vw 2vw;
+    padding: 0vw 2vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100vw;
     z-index: 2;
-    background-color: #000000;
+    background-color: #060606b9;
+    backdrop-filter: blur(5px);
   }
   :global(.active) {
     visibility: visible;

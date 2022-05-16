@@ -28,7 +28,7 @@ export default function Menu() {
         <div className="menu__items">
           <div className="menu_item">
             <a
-              href="https://api.whatsapp.com/send?phone=573505410330"
+              href="mailto:ea888416@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-item btn--clean"

@@ -36,7 +36,7 @@ export default css.global`
     overflow: hidden;
   }
   body {
-    background-color: #000000;
+    background-color: #060606;
   }
   .app-layout {
     position: fixed;
@@ -106,7 +106,7 @@ export default css.global`
     color: #ffffff;
     font-family: "Raleway-SemiBold";
     text-transform: uppercase;
-    font-size: 9vw;
+    font-size: 7vw;
     margin: 0;
   }
   p {
@@ -145,12 +145,11 @@ export default css.global`
     .container {
       margin-top: calc(3vw + 35px);
       padding-bottom: calc(8vw + 35px);
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
     .subtitle {
-      font-size: 5vw;
-      width: 10vw;
+      font-size: 3vw;
     }
     .paragraph {
       font-size: 1.6vw;
