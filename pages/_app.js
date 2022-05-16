@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import "normalize.css";
+import "locomotive-scroll/dist/locomotive-scroll.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
