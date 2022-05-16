@@ -6,6 +6,7 @@ import Menu from "../components/Menu";
 import AboutMe from "../components/AboutMe";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
+import Portfolio from "../components/Portfolio";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
             <AboutMe />
             <Education />
             <Skills />
+            <Portfolio />
           </main>
         </AppLayout>
       </SmoothScrollProvider>

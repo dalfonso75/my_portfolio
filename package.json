@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popmotion/popcorn": "^0.4.4",
     "framer-motion": "^6.3.3",
     "locomotive-scroll": "^4.1.4",
     "next": "12.1.6",
