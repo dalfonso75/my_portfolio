@@ -6,7 +6,6 @@ export const SmoothScrollContext = createContext({
 
 export const SmoothScrollProvider = ({ children, options }) => {
   const [scroll, setScroll] = useState(null);
-
   useEffect(() => {
     if (!scroll) {
       (async () => {
@@ -29,7 +28,7 @@ export const SmoothScrollProvider = ({ children, options }) => {
     return () => {
       scroll && scroll.destroy();
     };
-  }, [scroll]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [scroll]);
 
   return (
     <SmoothScrollContext.Provider value={{ scroll: scroll }}>

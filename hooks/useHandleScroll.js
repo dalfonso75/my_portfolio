@@ -5,7 +5,6 @@ export default function useHandleScroll() {
   const [scrollPos, setScrollPos] = useState(0);
   const handleScroll = () => {
     setScrollPos(document.body.getBoundingClientRect().top);
-    console.log(scrollPos);
     setShow(document.body.getBoundingClientRect().top > scrollPos);
   };
   useEffect(() => {
