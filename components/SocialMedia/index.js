@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
 import css from "./styles";
 export default function SocialMedia() {
@@ -13,17 +14,6 @@ export default function SocialMedia() {
         transition={{ duration: 1.2 }}
       >
         <a
-          href="https://github.com/dalfonso75"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="social__icon"
-            src="./assets/icons/github.svg"
-            alt="Github"
-          />
-        </a>
-        <a
           href="https://www.linkedin.com/in/deiver-alfonso/"
           target="_blank"
           rel="noopener noreferrer"
@@ -35,6 +25,17 @@ export default function SocialMedia() {
           />
         </a>
         <a
+          href="https://github.com/dalfonso75"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="social__icon"
+            src="./assets/icons/github.svg"
+            alt="Github"
+          />
+        </a>
+        <a
           href="mailto:ea888416@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -43,17 +44,6 @@ export default function SocialMedia() {
             className="social__icon"
             src="./assets/icons/mail.svg"
             alt="mail"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/enrique_deiver/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="social__icon"
-            src="./assets/icons/instagram.svg"
-            alt="Instagram"
           />
         </a>
       </motion.div>
