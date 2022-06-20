@@ -14,7 +14,8 @@ export default function Education() {
         />
         <IconText
           srcImage={"./assets/icons/platzi.webp"}
-          text={"Estudiante de Platzi"}
+          text={"Escuela de JavaScript, +30 cursos aprobados"}
+          href={"https://platzi.com/p/deiverenriquealfonsocortes/"}
         />
       </div>
       <style jsx>{css}</style>
