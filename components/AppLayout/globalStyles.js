@@ -89,7 +89,7 @@ export default css.global`
   }
   .container {
     margin-top: calc(3vw + 35px);
-    padding-bottom: calc(8vw + 35px);
+    padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -144,7 +144,7 @@ export default css.global`
   @media (min-width: 770px) {
     .container {
       margin-top: calc(3vw + 35px);
-      padding-bottom: calc(8vw + 35px);
+      padding-bottom: calc(4vw + 35px);
       padding-left: 5vw;
       padding-right: 5vw;
     }
