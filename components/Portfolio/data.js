@@ -1,0 +1,53 @@
+export const DataProject = [
+  {
+    id: 0,
+    name: "Deiver Portafolio",
+    description: "Desarrolador Web, Next JS",
+    year: "2022",
+    srcImage: "/assets/portfolio/deiver-portafolio.webp",
+    isExternalLink: false,
+  },
+  {
+    id: 1,
+    name: "Morph Granada",
+    description: "Desarrolador Web, Next.js",
+    year: "2022",
+    srcImage: "/assets/portfolio/morph-granada.webp",
+    isExternalLink: false,
+  },
+  {
+    id: 2,
+    name: "Stay Morph",
+    description: "Desarrolador Web, Next.js",
+    year: "2022",
+    srcImage: "/assets/portfolio/stay-morph.webp",
+    isExternalLink: true,
+    href: "http://staymorph.com/",
+  },
+  {
+    id: 3,
+    name: "Audio Care Plataforma",
+    description: "Desarrolador Web, React JS",
+    year: "2021",
+    srcImage: "/assets/portfolio/audio-care.webp",
+    isExternalLink: false,
+  },
+
+  {
+    id: 4,
+    name: "Casa Concreto",
+    description: "Desarrolador Web, Javascript, GSAP",
+    year: "2021",
+    srcImage: "/assets/portfolio/casa-concreto.webp",
+    isExternalLink: true,
+    href: "http://casaconcreto.com.co",
+  },
+  {
+    id: 5,
+    name: "CRM Eyetrade",
+    description: "Desarrolador Web, React JS",
+    year: "2021",
+    srcImage: "/assets/portfolio/crm-eyetrade.webp",
+    isExternalLink: false,
+  },
+];
