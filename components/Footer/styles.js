@@ -1,7 +1,7 @@
 import css from "styled-jsx/css";
 
 export default css`
-  .c-footer {
+  :global(.c-footer) {
     margin-top: 3vw;
     display: flex;
     justify-content: space-between;

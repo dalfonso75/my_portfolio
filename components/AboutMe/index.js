@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 import SocialMedia from "../SocialMedia";
 import PrimaryButton from "../Button/PrimaryButton";
 
+import { upFadeAnimation } from "../animations";
 import css from "./styles";
 
 export default function AboutMe() {
   return (
     <>
-      <motion.section className="c-about-me">
+      <motion.section {...upFadeAnimation} className="c-about-me">
         <section className="about-me__wrapper-media">
           <img
             className="about-me__image"

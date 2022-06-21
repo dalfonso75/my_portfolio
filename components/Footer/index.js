@@ -1,11 +1,14 @@
+import { motion } from "framer-motion";
+
 import SocialMedia from "../SocialMedia";
 
+import { upFadeAnimation } from "../animations";
 import css from "./styles";
 
 export default function Footer() {
   return (
     <>
-      <div className="c-footer">
+      <motion.div {...upFadeAnimation} className="c-footer">
         <SocialMedia />
         <a
           href="mailto:ea888416@gmail.com"
@@ -15,7 +18,7 @@ export default function Footer() {
         >
           CONTACTAR
         </a>
-      </div>
+      </motion.div>
       <style jsx>{css}</style>
     </>
   );

@@ -7,12 +7,12 @@ import SubtitleSection from "../SubtitleSection";
 
 import { DataProject } from "./data";
 
-import { animationProject } from "../Project/animations";
+import { upFadeAnimation } from "../animations";
 import css from "./styles";
 
 export default function Portfolio() {
   const [projectImage, setProjectImage] = useState(
-    "/assets/portfolio/stay-morph.webp"
+    "/assets/portfolio/deiver-portafolio.webp"
   );
   return (
     <>
@@ -36,7 +36,7 @@ export default function Portfolio() {
         </section>
         <motion.img
           key={projectImage}
-          {...animationProject}
+          {...upFadeAnimation}
           src={projectImage}
           alt=""
           className="portfolio__projects-image"

@@ -1,18 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
+
+import { upFadeAnimation } from "../animations";
 import css from "./styles";
 export default function SocialMedia() {
   return (
     <>
-      <motion.div
-        className="c-social"
-        initial={{
-          opacity: 0,
-        }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: false, amount: 0.1 }}
-        transition={{ duration: 1.2 }}
-      >
+      <motion.div className="c-social" {...upFadeAnimation}>
         <a
           href="https://www.linkedin.com/in/deiver-alfonso/"
           target="_blank"

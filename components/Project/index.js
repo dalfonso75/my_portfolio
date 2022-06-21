@@ -2,9 +2,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
 
+import { upFadeAnimation} from "../animations";
 import css from "./styles";
-
-import { animationProject } from "./animations";
 
 export default function Project({
   name,
@@ -19,7 +18,7 @@ export default function Project({
   return (
     <>
       <motion.section
-        {...animationProject}
+        {...upFadeAnimation}
         className="c-project"
         onMouseOver={() => {
           setProjectImage(srcImage);

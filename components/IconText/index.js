@@ -1,12 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
 
+import { upFadeAnimation } from "../animations";
 import css from "./style";
 
 export default function IconText({ srcImage, text, href }) {
   return (
     <>
-      <motion.div className="c-icon-text">
+      <motion.div {...upFadeAnimation} className="c-icon-text">
         <a
           className="icon-text-href"
           href={href}
