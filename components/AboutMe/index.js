@@ -32,7 +32,7 @@ export default function AboutMe() {
             en investigación e innovación y siempre dispuesto a aprender nuevas
             tecnologías o herramientas.
           </p>
-          <PrimaryButton href="" text={"VER CV"} />
+          <PrimaryButton href="/assets/CV_ES.pdf" text={"VER CV"} />
         </section>
       </motion.section>
       <style jsx>{css}</style>
