@@ -1,12 +1,13 @@
 import css from "styled-jsx/css";
 
 export default css`
+  
   .project__separator {
     width: 100%;
     height: 1px;
     background-color: #27292e;
   }
-  .project__link {
+  .project__link{
     text-decoration: none;
   }
   .project__content {
@@ -36,46 +37,5 @@ export default css`
     font-size: 0.9vw;
     color: rgb(184, 184, 184);
     transition: color 0.5s ease-in-out;
-  }
-  .project__image {
-    display: none;
-  }
-  @media (max-width: 770px) {
-    .project__content {
-      margin-bottom: 8vw;
-    }
-    .project__title {
-      font-size: 4vw;
-      color: #fff;
-    }
-    .project__description,
-    .project__year {
-      font-size: 2.5vw;
-      color: #fff;
-    }
-    .project__image {
-      display: block;
-      width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-  }
-  @media (max-width: 480px) {
-    .project__content {
-      margin-bottom: 8vw;
-    }
-    .project__title {
-      font-size: 4vw;
-    }
-    .project__description,
-    .project__year {
-      font-size: 2.5vw;
-    }
-    .project__image {
-      display: block;
-      width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
   }
 `;

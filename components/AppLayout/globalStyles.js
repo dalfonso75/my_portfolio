@@ -89,15 +89,14 @@ export default css.global`
   }
   .container {
     margin-top: calc(3vw + 35px);
-    padding-bottom: calc(4vw + 35px);
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .title {
     margin: 0;
     color: #ffffff;
     font-family: "Raleway-SemiBold";
-
     font-size: 2.5vw;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -107,7 +106,7 @@ export default css.global`
     color: #ffffff;
     font-family: "Raleway-SemiBold";
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 7vw;
     margin: 0;
   }
   p {
@@ -118,7 +117,7 @@ export default css.global`
     text-transform: none;
   }
   .paragraph {
-    font-size: 1.6vw;
+    font-size: 5vw;
   }
   .btn--clean {
     margin: 0;
@@ -129,45 +128,33 @@ export default css.global`
     cursor: pointer;
     outline: none;
   }
-  .btn-primary {
+  .btn-primary{
     width: fit-content;
     padding: 0.8vw 3vw;
     background-color: #c4c4c426;
-    color: #ffffff;
+    color: #FFFFFF;
     font-family: "Raleway-SemiBold";
     font-size: 1vw;
     text-decoration: none;
-    border-radius: 2px;
-    letter-spacing: 1px;
+    border-radius: 5px;
+    letter-spacing:1px;
   }
-  @media (max-width: 770px) {
-    .title {
-      font-size: 5.5vw;
-    }
-    .paragraph {
-      font-size: 3.3vw;
+  @media (min-width: 400px) {
+  }
+  @media (min-width: 770px) {
+    .container {
+      margin-top: calc(3vw + 35px);
+      padding-bottom: calc(4vw + 35px);
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
     .subtitle {
-      font-size: 4.5vw;
-    }
-    .btn-primary {
-      padding: 1.5vw 4vw;
-      font-size: 2.2vw;
-    }
-  }
-  @media (max-width: 400px) {
-    .title {
-      font-size: 7vw;
-    }
-    .subtitle {
-      font-size: 6vw;
+      font-size: 3vw;
     }
     .paragraph {
-      font-size: 4.8vw;
+      font-size: 1.6vw;
     }
-    .btn-primary {
-      padding: 3vw 6vw;
-      font-size: 3.5vw;
-    }
+  }
+  @media (min-width: 960px) {
   }
 `;

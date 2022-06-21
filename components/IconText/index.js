@@ -13,11 +13,7 @@ export default function IconText({ srcImage, text, href }) {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img
-            className={`icon-image ${text === "Express" ? "express" : ""}`}
-            src={srcImage}
-            alt={text}
-          />
+          <img className="icon-image" src={srcImage} alt={text} />
           <p className="paragraph">{text}</p>
         </a>
       </motion.div>

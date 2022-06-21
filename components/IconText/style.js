@@ -15,13 +15,4 @@ export default css`
     object-fit: cover;
     margin-right: 20px;
   }
-
-  @media (max-width: 400px) {
-  }
-  @media (max-width: 770px) {
-    .express {
-      width: 50px;
-      height: auto;
-    }
-  }
 `;

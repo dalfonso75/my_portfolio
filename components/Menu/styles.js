@@ -36,18 +36,14 @@ export default css`
     margin: 0 20px;
   }
 
-  @media (max-width: 770px) {
-    :global(.menu) {
-      padding: 10px 3vw;
+  @media (min-width: 400px) {
+  }
+  @media (min-width: 770px) {
+    .logo {
+      width: auto;
+      height: 30px;
     }
   }
-  @media (max-width: 480px) {
-    .menu__logo {
-      font-size: 3.2vw;
-    }
-    .menu__items {
-      font-size: 3vw;
-      margin:0;
-    }
+  @media (min-width: 960px) {
   }
 `;

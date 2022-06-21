@@ -30,35 +30,10 @@ export default css`
     z-index: -1;
     opacity: 0.8;
   }
-  .about-me__wrapper-content {
+  .about-me__wrapper-content{
     margin-top: -5vw;
   }
-  .about-me__wrapper-content > :global(.paragraph) {
+  .about-me__wrapper-content > :global(.paragraph){
     padding-bottom: 0.8em;
-  }
-  @media (max-width: 770px) {
-    :global(.c-about-me) {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      height: auto;
-      padding-top: 5vw;
-    }
-    .about-me__wrapper-media {
-      position: relative;
-      margin: 0;
-    }
-    .about-me__image {
-      width: 35vw;
-      height: 35vw;
-    }
-    .about-me__image-background {
-      margin: 0;
-    }
-    .about-me__wrapper-content {
-      margin-top: -3vw;
-    }
-  }
-  @media (max-width: 480px) {
   }
 `;
