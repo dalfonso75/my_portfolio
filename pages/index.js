@@ -29,7 +29,7 @@ export default function Home() {
             <title>Deiver Alfonso - Portafolio</title>
             <meta
               name="description"
-              content="Soy un Fullstack Developer en JavaScript con 2 años de experiencia desarrollando API REST y sitios web."
+              content="Soy Full Stack Developer en JavaScript con 2 años de experiencia en Next.js, React js, Node js, Express, HTML, CSS y Python."
             />
           </Head>
           <main data-scroll-container className="container">
