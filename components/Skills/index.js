@@ -13,8 +13,7 @@ export default function Skills() {
         <IconText srcImage={"./assets/icons/reactjs.svg"} text={"React JS"} />
         <IconText srcImage={"./assets/icons/nodejs.svg"} text={"Node JS"} />
         <IconText srcImage={"./assets/icons/express.svg"} text={"Express"} />
-      </div>
-      <div className="c-icons-text--skills">
+
         <IconText srcImage={"./assets/icons/html.svg"} text={"HTML"} />
         <IconText srcImage={"./assets/icons/css.svg"} text={"CSS"} />
         <IconText srcImage={"./assets/icons/mysql.svg"} text={"MySQL"} />

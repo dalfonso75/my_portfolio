@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { motion } from "framer-motion";
 
 import css from "./styles";
@@ -24,6 +26,7 @@ export default function Project({
         }}
       >
         <a className="project__link" href={href} target="_blank" rel="noreferrer noopener">
+          <img className="project__image" src={srcImage} />
           <div className="project__separator" />
           <section
             className={`project__content ${
