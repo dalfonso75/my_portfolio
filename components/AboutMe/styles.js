@@ -2,10 +2,10 @@ import css from "styled-jsx/css";
 export default css`
   :global(.c-about-me) {
     display: grid;
-    gap: 6vw;
-    grid-template-columns: 0.6fr 1fr;
+    gap: 8vw;
+    grid-template-columns: 0.5fr 1.5fr;
     align-items: center;
-    height: calc(90vh - 80px);
+    height: calc(70vh - 80px);
   }
   .about-me__wrapper-media {
     position: relative;
@@ -13,12 +13,16 @@ export default css`
   }
   .about-me__image {
     position: relative;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 15px;
+    width: 15vw;
+    height: 20vw;
+    object-fit: cover;
+    object-position: top;
+    /* border-radius: 15px; */
     margin-bottom: 10px;
+
   }
   .about-me__image-background {
+    display: none;
     position: absolute;
     top: -3vw;
     right: 0;
@@ -31,7 +35,7 @@ export default css`
     opacity: 0.8;
   }
   .about-me__wrapper-content {
-    margin-top: -5vw;
+    margin-top: -3vw;
   }
   .about-me__wrapper-content > :global(.paragraph) {
     padding-bottom: 0.8em;
@@ -49,8 +53,8 @@ export default css`
       margin: 0;
     }
     .about-me__image {
-      width: 35vw;
-      height: 35vw;
+      width: 25vw;
+      height: 30vw;
     }
     .about-me__image-background {
       margin: 0;
@@ -60,5 +64,9 @@ export default css`
     }
   }
   @media (max-width: 480px) {
+    .about-me__image {
+      width: auto;
+      height: 50vw;
+    }
   }
 `;
