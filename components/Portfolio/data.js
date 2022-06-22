@@ -1,14 +1,6 @@
 export const DataProject = [
   {
     id: 0,
-    name: "Deiver Portafolio",
-    description: "Desarrolador Web, Next JS",
-    year: "2022",
-    srcImage: "/assets/portfolio/deiver-portafolio.webp",
-    isExternalLink: false,
-  },
-  {
-    id: 1,
     name: "Morph Granada",
     description: "Desarrolador Web, Next.js",
     year: "2022",
@@ -16,13 +8,22 @@ export const DataProject = [
     isExternalLink: false,
   },
   {
-    id: 2,
+    id: 1,
     name: "Stay Morph",
     description: "Desarrolador Web, Next.js",
     year: "2022",
     srcImage: "/assets/portfolio/stay-morph.webp",
     isExternalLink: true,
     href: "http://staymorph.com/",
+  },
+  {
+    id: 2,
+    name: "INNTERIA",
+    description: "Desarrolador Web, Next.js",
+    year: "2021",
+    srcImage: "/assets/portfolio/innteria.webp",
+    isExternalLink: true,
+    href: "https://innteriacompany.com",
   },
   {
     id: 3,
@@ -32,7 +33,6 @@ export const DataProject = [
     srcImage: "/assets/portfolio/audio-care.webp",
     isExternalLink: false,
   },
-
   {
     id: 4,
     name: "Casa Concreto",

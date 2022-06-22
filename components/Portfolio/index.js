@@ -12,7 +12,7 @@ import css from "./styles";
 
 export default function Portfolio() {
   const [projectImage, setProjectImage] = useState(
-    "/assets/portfolio/deiver-portafolio.webp"
+    "/assets/portfolio/morph-granada.webp"
   );
   return (
     <>
