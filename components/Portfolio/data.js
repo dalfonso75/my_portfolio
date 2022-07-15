@@ -40,7 +40,7 @@ export const DataProject = [
     year: "2021",
     srcImage: "/assets/portfolio/casa-concreto.webp",
     isExternalLink: true,
-    href: "http://casaconcreto.com.co",
+    href: "https://casaconcreto.com.co",
   },
   {
     id: 5,
