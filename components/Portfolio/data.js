@@ -2,15 +2,16 @@ export const DataProject = [
   {
     id: 0,
     name: "Morph Granada",
-    description: "Desarrolador Web, Next.js",
+    description: "Desarrollador Web, Next.js",
     year: "2022",
     srcImage: "/assets/portfolio/morph-granada.webp",
-    isExternalLink: false,
+    isExternalLink: true,
+    href: "https://www.morphgranada.com/",
   },
   {
     id: 1,
     name: "Stay Morph",
-    description: "Desarrolador Web, Next.js",
+    description: "Desarrollador Web, Next.js",
     year: "2022",
     srcImage: "/assets/portfolio/stay-morph.webp",
     isExternalLink: true,
@@ -19,7 +20,7 @@ export const DataProject = [
   {
     id: 2,
     name: "INNTERIA",
-    description: "Desarrolador Web, Next.js",
+    description: "Desarrollador Web, Next.js",
     year: "2021",
     srcImage: "/assets/portfolio/innteria.webp",
     isExternalLink: true,
@@ -28,7 +29,7 @@ export const DataProject = [
   {
     id: 3,
     name: "Audio Care Plataforma",
-    description: "Desarrolador Web, React JS",
+    description: "Desarrollador Web, React JS",
     year: "2021",
     srcImage: "/assets/portfolio/audio-care.webp",
     isExternalLink: false,
@@ -36,7 +37,7 @@ export const DataProject = [
   {
     id: 4,
     name: "Casa Concreto",
-    description: "Desarrolador Web, Javascript, GSAP",
+    description: "Desarrollador Web, Javascript, GSAP",
     year: "2021",
     srcImage: "/assets/portfolio/casa-concreto.webp",
     isExternalLink: true,
@@ -45,7 +46,7 @@ export const DataProject = [
   {
     id: 5,
     name: "CRM Eyetrade",
-    description: "Desarrolador Web, React JS",
+    description: "Desarrollador Web, React JS",
     year: "2021",
     srcImage: "/assets/portfolio/crm-eyetrade.webp",
     isExternalLink: false,

@@ -3,7 +3,7 @@ export default css`
   :global(.c-about-me) {
     display: grid;
     gap: 8vw;
-    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-columns: 0.7fr 1.4fr;
     align-items: center;
     height: calc(70vh - 80px);
   }
@@ -13,13 +13,12 @@ export default css`
   }
   .about-me__image {
     position: relative;
-    width: 15vw;
+    width: 20vw;
     height: 20vw;
     object-fit: cover;
     object-position: top;
     /* border-radius: 15px; */
     margin-bottom: 10px;
-
   }
   .about-me__image-background {
     display: none;
@@ -66,7 +65,7 @@ export default css`
   @media (max-width: 480px) {
     .about-me__image {
       width: auto;
-      height: 50vw;
+      height: 60vw;
     }
   }
 `;
