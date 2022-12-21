@@ -27,12 +27,12 @@ export default function AboutMe() {
         <section className="about-me__wrapper-content">
           <h1 className="title">Deiver Enrique Alfonso Cortes</h1>
           <p className="paragraph">
-            Soy Full Stack Developer en JavaScript con 3 años de experiencia en
-            desarrollo de software, mi Stack está compuesto con las tecnologías
-            JavaScript, React js, Next.js, Node js, Express y Python. Mi carrera
-            profesional es Ingeniería en Automatización, cuento con experiencia
-            en investigación e innovación y siempre dispuesto a aprender nuevas
-            tecnologías o herramientas.
+            Soy un desarrollador Full Stack con más de 3 años de experiencia en
+            el desarrollo de software con JavaScript. Mi stack tecnológico
+            incluye React js, Next.js, Node js y Python. Soy ingeniero en
+            automatización y tengo experiencia en investigación e innovación.
+            Estoy siempre dispuesto a aprender nuevas tecnologías y herramientas
+            para mejorar mis habilidades y conocimientos.
           </p>
           <PrimaryButton href="/assets/CV_ES.pdf" text={"VER CV"} />
         </section>
