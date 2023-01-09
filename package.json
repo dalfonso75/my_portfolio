@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@popmotion/popcorn": "^0.4.4",
+    "@vercel/analytics": "^0.1.6",
     "framer-motion": "^6.3.3",
     "locomotive-scroll": "^4.1.4",
     "next": "12.1.6",
