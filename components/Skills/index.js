@@ -6,7 +6,7 @@ import css from "./styles";
 export default function Skills() {
   return (
     <>
-      <SubtitleSection text={"Skills"} />
+      <SubtitleSection text={"Habilidades"} />
       <div className="c-icons-text--skills">
         <IconText srcImage={"./assets/icons/js.svg"} text={"JavaScript"} />
         <IconText srcImage={"./assets/icons/next-js.svg"} text={"Next.js"} />
