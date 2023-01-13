@@ -27,7 +27,7 @@ export default function AboutMe() {
         <section className="about-me__wrapper-content">
           <h1 className="title">Deiver Enrique Alfonso Cortes</h1>
           <p className="paragraph">
-            Soy un desarrollador Full Stack con 3 años de experiencia en el
+            Soy un desarrollador Front End con 3 años de experiencia en el
             desarrollo de aplicaciones web y sistemas. He trabajado con una
             amplia gama de tecnologías, incluyendo React js, Next.js, Node js y
             Python. Mi experiencia en ingeniería de automatización me ha
